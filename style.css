@@ -54,6 +54,17 @@ aside#fotos{
     padding: 1%;
 }
 
+aside#fotos div{
+    background-color: black;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 3px;
+}
+
+aside#fotos div img{
+    width: 100%;
+}
+
 aside#video{
     background-color: rgb(70, 70, 85);
     color: white;
@@ -61,6 +72,10 @@ aside#video{
     float: right;
     width: 35%;
     padding: 1%;
+}
+
+aside#video video{
+    width: 100%;
 }
 
 footer#rodape{
